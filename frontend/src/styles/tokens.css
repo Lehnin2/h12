@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+  color-scheme: light;
+
+  /* --- Guardian of the Gulf: Premium Tunisian Palette --- */
+  --bg: #F9F7F2;
+  /* Creamier Sand */
+  --bg-elevated: #FFFFFF;
+  --bg-soft: #F0F7F7;
+  /* Softer Seafoam */
+
+  --panel: rgba(255, 255, 255, 0.75);
+  --panel-strong: rgba(255, 255, 255, 0.92);
+  --panel-frost: rgba(240, 247, 247, 0.6);
+
+  --line: rgba(30, 58, 95, 0.06);
+  --line-strong: rgba(30, 58, 95, 0.12);
+
+  --text: #1E3A5F;
+  /* Rich Méditerranée Navy instead of deep black */
+  --text-soft: #4A607D;
+  /* Softer, richer secondary text */
+  --muted: #6B7A8C;
+  /* Muted but clearly visible navy-grey */
+  --muted-strong: #52627A;
+
+  --primary: #1E3A5F;
+  /* Méditerranée Blue */
+  --primary-gradient: linear-gradient(135deg, #1E3A5F 0%, #142132 100%);
+
+  --accent-green: #00BFA5;
+  /* Turquoise Healing */
+  --accent-gold: #F5C26B;
+  /* Warm Sun Gold */
+  --accent-red: #E07A5F;
+  /* Terracotta / Tunisian Red */
+  --pollution: #8C7AA8;
+  /* Pollution Muted */
+
+  --shadow-sm: 0 2px 4px rgba(30, 58, 95, 0.04);
+  --shadow: 0 12px 48px rgba(30, 58, 95, 0.08);
+  --shadow-lg: 0 24px 64px rgba(30, 58, 95, 0.12);
+  --shadow-inset: inset 0 2px 4px rgba(30, 58, 95, 0.02);
+
+  --radius-sm: 12px;
+  --radius: 24px;
+  --radius-lg: 32px;
+  --radius-full: 999px;
+
+  /* Additional Premium Radii */
+  --radius-card: 28px;
+  --radius-panel: 34px;
+  --radius-soft: 20px;
+  --radius-pill: 999px;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+
+  /* Typography */
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --good-bg: rgba(0, 191, 165, 0.08);
+  --warn-bg: rgba(245, 194, 107, 0.08);
+  --danger-bg: rgba(224, 122, 95, 0.1);
+  --neutral-bg: rgba(30, 58, 95, 0.03);
+}

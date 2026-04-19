@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+backend/.env
+
+# Runtime data
+*.db
+
